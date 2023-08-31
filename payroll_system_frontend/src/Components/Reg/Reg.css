@@ -1,0 +1,55 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -22px;
+}
+.regForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #888181;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.regForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.regForm input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #888181;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+.regForm button {
+  margin: 20px 0 0 0;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 2px 4px #818a97;
+  color: aliceblue;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+.regForm button:hover {
+  background-color: #0c80e6; /* Change the background color on hover */
+}
+.image {
+  
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+.img {
+ margin-bottom: 20px;
+}

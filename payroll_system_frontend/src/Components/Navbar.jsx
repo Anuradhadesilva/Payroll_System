@@ -25,6 +25,15 @@ const Navbar = () => {
                   <NavLink
                     className="nav-link"
                     aria-current="page"
+                    to="/Reg"
+                  >
+                    Reg
+                  </NavLink>
+                </li>
+              <li className="nav-item">
+                  <NavLink
+                    className="nav-link"
+                    aria-current="page"
                     to="/"
                   >
                     Home
